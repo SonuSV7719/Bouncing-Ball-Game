@@ -42,7 +42,7 @@ re_font = pygame.font.Font(None, 20)
 restart_button_text = re_font.render("Restart", True, white)
 restart_button_rect = restart_button_text.get_rect(center=(width // 2 + 5, height // 2 + 65))
 
-# Restart button
+# score
 highscore = 0
 score = 0
 sco_font = pygame.font.Font(None, 25) 
